@@ -10,3 +10,4 @@
 *.fot
 phthalocyanine.synctex.gz
 *.pdf
+.DS_Store
