@@ -6,7 +6,7 @@
 
 \usepackage{chemfig}
 \setchemfig{atom style={red,scale=1}}
-
+\setchemfig{bond style={line width=1.5pt}}
 
 \begin{document}
 
@@ -88,6 +88,41 @@
   )
 }
 \caption{Iron Phthalocyanine (MnPc)}
+\end{figure}
+
+
+\begin{figure}
+\centering
+\chemfig{
+  -S([:90]=O)([:-90]=O)(-NaO)
+}
+\caption{tetrasodium salt}
+\end{figure}
+
+\begin{figure}
+\centering
+\chemfig[atom style={red,scale=0.7},bond style={line width=1pt}]{
+  N?[a]=[::+63]*5(
+    -N?[b]=(
+      -N=[::-54]*5(
+        -N?[c]=(
+          -N=[::-54]*5(
+            -N?[d]=(
+              -N=[::-54]*5(
+                -N(-[::-54,1.5]Cu?[b,,dotted]?[c]?[d,,dotted])
+                =[,,1]?[a]-(*6(=-=(-S([:0]=O)([:180]=O)([:-90]-ONa))-=-))--
+              )
+            )
+            -(*6(=-=(-S([:90]=O)([:-90]=O)(-ONa))-=-))--
+          )
+        )
+        -(*6(=-=-(-S([:90]=O)([:-90]=O)([:180]-NaO))=-))--
+      )
+    )
+    -(*6(=-=(-S([:90]=O)([:-90]=O)([:180]-NaO))-=-))--
+  )
+}
+\caption{Copper phthalocyanine-$3,4^{'},4^{"},4^{"'}$-tetrasulfonic acid tetrasodium salt}
 \end{figure}
 
 \end{document}  

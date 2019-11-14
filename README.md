@@ -4,4 +4,8 @@ LaTeX document to generate Phthalocyanine and related molecules using the ChemFi
 
 The rendered copper Phthalocyanine molecule looks as follows:
 
-![copper Phthalocyanine](figs/CuPc.png)
+![Copper phthalocyanine](figs/CuPc.png)
+
+The water-soluble version is here:
+
+![Copper phthalocyanine-3,4′,4″,4″′-tetrasulfonic acid tetrasodium salt](figs/CuPcTetra.png)
